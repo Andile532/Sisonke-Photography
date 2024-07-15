@@ -1,0 +1,1083 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #131418;
+    opacity: 0.9;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*all nav-content styles here*/
+
+#nav-holder{
+   height: 60px;
+   width: 100%;
+   background-color: none;
+   color: white;
+   position: sticky; 
+   display: flex;
+   margin-top: 1.4rem;
+
+}
+
+.logo-holder{
+    height: 40px;
+    width: 40px;
+    background-color: grey;
+    margin-left: 1rem;
+    margin-top: 0.6rem;
+    border-radius: 50%;
+    color: black;
+    display: flex;
+}
+
+h60{
+    margin: auto;
+    display: flex;
+    font-size: 20px;
+}
+
+h1{
+    margin-left: 0.5rem;
+    opacity: 0.9;
+    margin-top: 0.5rem;
+}
+
+/*all nav list syles are in th below section*/
+ul{
+    display: flex;
+    color: white;
+}
+
+ul li{
+    margin-left: 2.8rem;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    margin-top: 1.3rem;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+li a:hover{
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    font-weight: bold;
+}
+
+/*the third sction of the hover styles starts in the below section*/
+.en{
+    margin-left: 22rem;
+    margin-top: 1.5rem;
+    font-size: 18px;
+    opacity: 0.9;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.search{
+    margin-left: 1.8rem;
+    margin-top: 1.5rem;
+    display: flex;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/*All hero section styles beow*/
+#hero-section{
+    height: 400px;
+    width: 100%;
+    background-color: none;
+    margin-top: 1.6rem;
+    display: flex;
+    opacity: 0.9;
+}
+
+.hero1{
+    height: 100%;
+    width: 50%;
+    background-color: none;
+    color: white;
+}
+
+.hero2{
+    height: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://plus.unsplash.com/premium_photo-1674389991679-e1a7a0b3e0a7?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    margin-top: 3.5rem;
+    width: 520px;
+}
+
+h2{
+    font-size: 40px;
+    margin-left: 1.7rem;
+    margin-top: 3rem;
+    display: flex;
+}
+
+h3{
+    font-size: 40px;
+    margin-left: 1.7rem;
+}
+
+.catch{
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+}
+
+.get-started{
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: black;
+    color: #cc2729;
+    border: 1px solid #cc2729;
+    cursor: pointer;
+}
+
+.get-started:hover{
+    border: 2px solid red;
+    color: red;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+/*all experience content starts in the below setion*/
+
+#experience{
+    display: flex;
+    opacity: 0.9;
+}
+
+.satisfied-customers{
+    height: 130px;
+    width: 250px;
+    background-color: #353537;
+    margin-top: 7rem;
+    margin-left: 8rem;
+    text-align: center;
+    color: white;
+}
+
+h4{
+    padding-top: 1rem;
+    font-size: 30px;
+}
+
+.customers{
+    padding-top: 0.5rem;
+    font-size: 20px;
+}
+
+.photographers{
+    height: 130px;
+    width: 250px;
+    background-color: #353537;
+    margin-top: 7rem;
+    margin-left: 3rem;
+    text-align: center;
+}
+
+h5{
+    padding-top: 1rem;
+    font-size: 30px;
+    color: white;
+}
+
+.experts{
+    padding-top: 0.5rem;
+    font-size: 20px;
+    color: white;
+}
+
+.years-experience{
+    height: 130px;
+    width: 250px;
+    background-color: #353537;
+    margin-top: 7rem;
+    margin-left: 3rem;
+    text-align: center;
+}
+
+h6{
+    padding-top: 1rem;
+    font-size: 30px;
+    color: white;
+}
+
+.experience{
+    padding-top: 0.5rem;
+    font-size: 20px;
+    color: white;
+}
+
+/*All the about section styles*/
+#about{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+.about1{
+   height: 350px;
+   width: 550px;
+   background-image: url("https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.about2{
+  height: 350px;
+  width: 550px;
+  background-color: none;
+  color: white;
+}
+
+h7{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+.about-explanation{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.learn-more{
+    margin-left: 2rem;
+    margin-top: 1.2rem;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: black;
+    color: #cc2729;
+    border: 1px solid #cc2729;
+    cursor: pointer;
+}
+
+.learn-more:hover{
+    border: 2px solid red;
+    color: red;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+/*All portfolio styles are in the below section*/
+
+h8{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 2rem;
+    padding-top: 3rem;
+    display: flex;
+    text-decoration: underline;
+}
+
+.port-pictures{
+    display: flex;
+}
+
+.first-block{
+    display: block;
+}
+
+.pic-1{
+    height: 400px;
+    width: 390px;
+    background-image: url("https://plus.unsplash.com/premium_photo-1664301214906-533e5cfc02cf?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.pic-2{
+    height: 400px;
+    width: 390px;
+    background-image: url("https://plus.unsplash.com/premium_photo-1664301214906-533e5cfc02cf?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}
+
+/*All second block pictures styles here*/
+
+.second-block{
+    display: block;
+}
+
+.pic-3{
+   height: 250px;
+   width: 300px;
+   background-image: url("https://images.unsplash.com/photo-1564501049412-61c2a3083791?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-top: 2rem;
+   margin-left: 0.5rem;
+
+}
+.pic-4{
+    height: 250px;
+    width: 300px;
+    background-image: url("https://plus.unsplash.com/premium_photo-1661317306892-a9dbd48e18d4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+
+}
+.pic-5{
+    height: 290px;
+    width: 300px;
+    background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+/*All third block pictres styles are in the below section*/
+
+.third-block{
+    display: block;
+}
+
+.pic-6{
+    height: 400px;
+    width: 390px;
+    background-image: url("https://images.unsplash.com/photo-1563452965085-2e77e5bf2607?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+}
+
+.pic-7{
+    height: 400px;
+    width: 390px;
+    background-image: url("https://plus.unsplash.com/premium_photo-1676385777649-9eabba52854f?q=80&w=1288&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+/*All team styles are in the below section*/
+
+h9{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 2rem;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+#team-holder{
+    height: 400px;
+    width: 1100px;
+    background-color: none;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.teamcapture{
+    color: white;
+    margin-left: 1rem;
+}
+
+#team-holders{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.holder1{
+   height: 370px;
+   width: 350px;
+   background-color: #313131;
+   margin-left: 0.7rem;
+}
+
+.holder2{
+    height: 370px;
+    width: 350px;
+    background-color: #313131;
+    margin-left: 1em;
+}
+
+/*Inside holders content starts here*/
+.frame1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    background-image: url("https://images.unsplash.com/photo-1531384441138-2736e62e0919?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.frame2{
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    background-image: url("https://plus.unsplash.com/premium_photo-1661682924101-62d65486aecd?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.frame3{
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    background-image: url("https://plus.unsplash.com/premium_photo-1661690762680-413136448d56?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGJsYWNrJTIwcGhvdG9ncmFwaGVyfGVufDB8fDB8fHww");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.holder3{
+    height: 370px;
+    width: 350px;
+    background-color: #313131;
+    margin-left: 1rem;
+}
+
+h10{
+    color: white;
+    font-size: 18px;
+    padding-top: 1rem;
+    display: flex;
+    margin-left: 6rem;
+    font-weight: bold;
+}
+
+.profile-explanation{
+    color: white;
+
+}
+
+.view-profile{
+    color: #cc2729;
+    font-weight: bold;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.view-profile:hover{
+    transition: 0.3s ease;
+    color: red;
+}
+
+.arrow-right{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+/*the pricing plans styles can be found in the below section*/
+
+h11{
+  font-size: 30px;
+  margin-top: 10rem;
+  display: flex;
+  color: white;
+  padding-left: 25rem;
+}
+
+#pricing-holder{
+    height: 500px;
+    width: 1070px;
+    background-color: none;
+    margin-left: 3rem;
+    font-weight: bold;
+}
+
+.pricing-capture{
+    color: white;
+    margin-left: 23rem;
+    display: flex;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.pricing-holders{
+    display: flex;
+}
+
+.pricing-holder1{
+    height: 400px;
+    width: 350px;
+    background-color: #313131;
+    margin-top: 2rem;
+}
+
+.pricing-holder2{
+    height: 400px;
+    width: 330px;
+    background-color: #313131;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.pricing-holder3{
+    height: 400px;
+    width: 330px;
+    background-color: #313131;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+/*The content inside the pricing holders starts here*/
+
+h12{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+h13{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+h14{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+ol{
+    margin-left: 2rem;
+    color: white;
+    font-weight: 100;
+}
+
+.basic{
+    height: 300px;
+    width: 3000px;
+    border: 2px solid white;
+}
+
+.recommendation{
+    color: white;
+    display: flex;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+h15{
+    margin-left: 1rem;
+    color: white;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    display: flex;
+}
+
+/*Price subscription are nested in the below section*/
+
+.subscribe{
+    height: 40px;
+    width: 150px;
+    color:#cc2729;
+    border: 1px solid #cc2729;
+    margin-left: 2rem;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.subscribe:hover{
+    transition: 0.3s ease-in-out;
+    border: 1px solid red;
+    color: red;
+}
+
+/*The styles for the styles for the contact section are nested below*/
+
+#contact-holder{
+    display: flex;
+    height: 400px;
+    width: 1070px;
+    background-color: none;
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+
+.contact-holder1{
+    height: 100%;
+    width: 50%;
+}
+
+h16{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.contact-catch{
+    color: white;
+    font-size: 15px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+fieldset{
+    margin-top: 1rem;
+    width: 350px;
+    border: none;
+}
+
+.contact-holder2{
+    height: 100%;
+    width: 50%;
+    background-image: linear-gradient(to bottom, white, grey, grey, black);
+    border: none;
+    overflow: hidden;
+}
+
+img{
+    mix-blend-mode: multiply;
+}
+
+/*All fieldset styles are nested in the below section*/
+
+input{
+    margin-top: 1rem;
+    height: 35px;
+    border-radius: 5px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    opacity: o.9;
+    font-size: 15px;
+}
+
+textarea{
+    margin-top: 1rem;
+    display: flex;
+    width: 400px;
+    height: 100px;
+    border: 1px solid white;
+    background-color:black;
+    color: white;
+    opacity: 0.9;
+    font-size: 15px;
+}
+
+::placeholder{
+    color: white;
+    padding-left: 0.5rem;
+    display: flex;
+    opacity: 0.9;
+}
+
+.send{
+    margin-top: 1rem;
+    height: 35px;
+    width: 400px;
+    font-weight: bold;
+    background-color: black;
+    color: #cc2729;
+    border: 1px solid #cc2729;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.send:hover{
+    transition: 0.3s ease-in-out;
+    border: 1px solid red;
+    color: red;
+    border-radius: 5px;
+}
+
+/*All confessions styles are nested in the below section*/
+#confessions-holder{
+   height: 400px;
+   width: 100%;
+   background-color: #353537;
+   margin-top: 1rem;
+   display: flex;
+}
+
+.confessions-holder1{
+height: 100%;
+width: 50%;
+background-color: none;
+}
+
+.confessions-holder2{
+    height: 100%;
+    width: 50%;
+    background-color: none;
+
+}
+
+.customer-holder1{
+    height: 340px;
+    width: 400px;
+    background-image: url("https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    margin-top: 2rem;
+    display: flex;
+    margin-left: 3rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h18{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    padding-top: 3rem;
+
+}
+
+.client-confession{
+    color: white;
+    margin-top: 3rem;
+    font-size: 18px;
+
+}
+
+.stars{
+    margin-top: 1rem;
+    color: gold;
+}
+
+.client-name{
+    color: white;
+    margin-top: 1rem;
+    font-size: 18px;
+}
+
+/*summary holder styles are in the belo section*/
+
+#summary-holder{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.first-patch{
+    display: block;
+}
+
+.summary-logo{
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 7rem;
+}
+
+h20{
+  font-size: 30px;
+  color: white;
+  margin-left: 3rem;
+  display: flex;
+  padding-top: 1rem;
+}
+
+#social-media{
+    display: flex;
+}
+
+.facebook{
+    color: #1877F2;
+    font-size: 20px;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    display: flex;
+    cursor: pointer;
+}
+
+.twitter{
+    color: white;
+    font-size: 20px;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    display: flex;
+    cursor: pointer;
+}
+
+.whatsapp{
+    color: #25D366;
+    font-size: 20px;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    display: flex;
+    cursor: pointer;
+}
+
+/*all bottom nav content are in the below section*/
+
+#bottom-nav{
+    display: block;
+    color: white;
+    margin-top: 5rem;
+    display: flex;
+}
+
+.home-nav, .about-nav, .contact-nav{
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.home-nav:hover{
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.contact-nav:hover{
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.about-nav:hover{
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+#contacts-shortcut{
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+
+/*Al about section styles starts here*/
+
+#about-hero{
+    height: 500px;
+    width: 100%;
+    background-color: #313131;
+    margin-top: 3rem;
+    display: flex;
+}
+
+.about-hero1{
+    height: 100%;
+    width: 50%;
+}
+
+.about-hero2{
+    height: 100%;
+    width: 50%;
+    background-image: url("https://media.istockphoto.com/id/1343800417/photo/african-children-during-english-class-southern-ethiopia-east-africa.webp?b=1&s=170667a&w=0&k=20&c=cfqRlfCPEMv9FBLAQkfv9uQ1R8q8tp6KQCPuvi_HYYg=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h22{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.9;
+    margin-left: 2rem;
+    padding-top: 1rem;
+    display: flex;
+}
+
+.about-statement{
+    color: white;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+/*the first content styles of the about section starts in the below section*/
+#vision{
+    height: 500px;
+    width: 100%;
+    background-color: #313131;
+    display: flex;
+} 
+
+.vision1{
+    height: 100%;
+    width: 50%;
+    background-image: url("https://cdn.pixabay.com/photo/2016/01/09/18/27/camera-1130731_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.vision2{
+    height: 100%;
+    width: 50%;
+}
+
+/*All mission styles can be found in the below section*/
+
+#mission{
+    height: 500px;
+    width: 100%;
+    background-color: #313131;
+    display: flex;
+}
+
+.mission1{
+    height: 100%;
+    width: 50%;
+}
+
+.mission2{
+    height: 100%;
+    width: 50%;
+    background-image: url("data:image/jpeg;base64,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");
+}
+
+/*all hero section contact styles are in the below section*/
+
+#contact-hero{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    margin-top: 2rem;
+}
+
+h30{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 2rem;
+    margin-left: 2rem;
+    display: flex;
+}
+
+.contact-explanation{
+    color: white;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: 18px;
+}
+
+/* all main contact section styles are nested in the below section*/
+
+#maincontact-section{
+    height: 400px;
+    width: 100%;
+    background-color: #353537;
+    display: flex;
+}
+
+.section1{
+    height: 100%;
+    width: 50%;
+    background-color: none;
+}
+
+.section2{
+    height: 100%;
+    width: 50%;
+    background-color: none;
+}
+
+h32{
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    margin-left: 2rem;
+    padding-top: 3rem;
+    display: flex;
+}
+
+.quote-reason{
+    font-size: 18px;
+    color: white;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.phone-numbers{
+    display: flex;
+}
+
+.phone-holder{
+    height: 40px;
+    width: 40px;
+    background-color: #cc2729;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    border-radius: 50%;
+    display: flex;
+}
+
+.phone{
+    color: white;
+    margin: auto;
+    font-size: 20px;
+    display: flex;
+}
+
+.numbers{
+    margin-left: 1rem;
+    display: flex;
+}
+
+.form-holder{
+    height: 350px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    margin-top: 1rem;
+    border-radius: 8px;
+    padding-left: 4rem;
+    opacity: 0.9;
+}
+
+#ContactUs{
+   display: block;
+}
+
+
+
+
+
+
